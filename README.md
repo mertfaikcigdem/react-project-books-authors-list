@@ -1,3 +1,3 @@
 # react-website
 
-bitirme projesi
+Kodluyoruz bitirme projesi
