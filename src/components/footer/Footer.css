@@ -1,0 +1,50 @@
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    font-family: 'Georama', sans-serif;
+}
+
+.pages {
+    display: grid;
+    padding: 8px;
+}
+
+.contact {
+    display: grid;
+    padding: 8px;
+}
+
+.social {
+    padding: 8px;
+}
+
+h2 {
+    color: whitesmoke;
+}
+
+.pages  span {
+    color: whitesmoke;
+    opacity: 0.5;
+}
+
+.contact  span {
+    color: whitesmoke;
+    opacity: 0.5;
+}
+
+.icons {
+    font-size: 30px;
+    color: whitesmoke;
+    opacity: 0.5;
+    margin: 2px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.icons:hover {
+    color: #00aeef;
+    opacity: 1;
+}

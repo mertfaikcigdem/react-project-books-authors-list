@@ -1,0 +1,148 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  z-index: 999;
+}
+
+.navbar h2 {
+  color: black;
+}
+
+.button-bar {
+  margin: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+.log-icon {
+  margin: 5px;
+}
+
+.button-bar .log-button {
+  margin: 12px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.3s;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Georama", sans-serif;
+}
+
+.button-bar .log-button:hover {
+  background-color: whitesmoke;
+  width: 25%;
+}
+
+.home-link {
+  text-decoration: none;
+  width: 100%;
+}
+
+.home-button {
+  margin: 12px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.3s;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Georama", sans-serif;
+}
+
+.home-button:hover {
+  width: 30%;
+  background-color: whitesmoke;
+}
+
+.home-icon {
+  font-size: 30px;
+  margin: 5px;
+  padding: 2;
+}
+
+.login-input {
+  display: block;
+  width: 70%;
+  padding: 12px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+  transition: all 0.3s;
+}
+
+.login-input:hover {
+  width: 80%;
+}
+
+.login-button {
+  background: transparent;
+  border: 2px solid black;
+  cursor: pointer;
+  margin-top: 18px;
+  padding: 6px;
+  width: 40%;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.login-button:hover {
+  width: 50%;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+.user .log-button {
+  margin: 12px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.3s;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Georama", sans-serif;
+}
+
+.user .log-button:hover {
+  background-color: whitesmoke;
+  width: 20%;
+}
+
+.user .username {
+  margin: 0 3px;
+  font-family: "Georama", sans-serif;
+  font-weight: bold;
+}

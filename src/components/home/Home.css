@@ -1,0 +1,82 @@
+.home-content {
+  width: 1220px;
+  margin: 10% auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.b-content {
+  padding: 20px;
+  background: linear-gradient(rgba(17, 30, 49, 0.7), rgba(211, 84, 0, 0.7)),
+    url("https://gtelocalize.com/wp-content/uploads/2020/05/Essential-Books.jpg");
+  background-size: cover;
+  width: 450px;
+  height: 350px;
+  margin: 10px;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.b-content:hover {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.7);
+  border-radius: 20px;
+  width: 500px;
+  height: 400px;
+}
+
+.b-content span {
+  position: absolute;
+  z-index: 999;
+  top: 75%;
+  left: 35%;
+  font-size: 30px;
+  color: beige;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Georama", sans-serif;
+  transition: all 0.5s;
+}
+
+.b-content span:hover {
+  font-size: 40px;
+  border-bottom: 2px solid black;
+}
+
+.a-content {
+  padding: 20px;
+  background: linear-gradient(rgba(17, 30, 49, 0.7), rgba(211, 84, 0, 0.7)),
+    url("https://puvidya.files.wordpress.com/2011/03/author.jpg");
+  background-size: cover;
+  width: 450px;
+  height: 350px;
+  margin: 10px;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.a-content:hover {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.7);
+  border-radius: 20px;
+  width: 500px;
+  height: 400px;
+}
+
+.a-content span {
+  position: absolute;
+  z-index: 999;
+  top: 75%;
+  left: 35%;
+  font-size: 30px;
+  color: beige;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Georama", sans-serif;
+  transition: all 0.5s;
+}
+
+.a-content span:hover {
+  font-size: 40px;
+  border-bottom: 2px solid black;
+}

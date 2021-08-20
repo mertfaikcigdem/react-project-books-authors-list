@@ -1,0 +1,45 @@
+.container {
+  width: 1220px;
+  margin: 8% auto;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.author-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 15%;
+  padding: 6px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.author-card img {
+  height: 200px;
+  width: 170px;
+  padding: 5px;
+  object-fit: contain;
+}
+
+.author-card span {
+  padding: 5px;
+}
+
+.author-link {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Georama", sans-serif;
+  letter-spacing: 0.2rem;
+  border-bottom: 1px solid black;
+}
+
+.author-name {
+  color: whitesmoke;
+  font-family: "Georama", sans-serif;
+  letter-spacing: 0.1rem;
+}

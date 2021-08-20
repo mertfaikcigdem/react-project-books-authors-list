@@ -1,0 +1,88 @@
+.book-card {
+  width: 1220px;
+  margin: 8% auto;
+  padding: 32px;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  font-family: "Georama", sans-serif;
+}
+
+.book-card {
+  color: whitesmoke;
+}
+
+.book-card-image {
+  width: 100%;
+  display: flex;
+  object-fit: contain;
+  justify-content: space-around;
+}
+
+.book-card-image img {
+  width: 210px;
+  height: 250px;
+}
+
+.book-card-info {
+  display: grid;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  width: 210px;
+  height: 230px;
+  padding: 12px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.book-card-text {
+  margin: 12px;
+}
+
+.comment-box {
+  border-top: 2px solid black;
+  justify-content: space-between;
+}
+
+.comments span {
+  font-size: 12px;
+  opacity: 0.5;
+  padding: 0;
+  margin: 0;
+}
+
+.comments p {
+  padding-bottom: 12px;
+  border-bottom: 1px solid black;
+}
+
+.comment-form {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.comment-form span {
+  position: absolute;
+  top: 90%;
+  right: 30%;
+}
+
+.comment-form textarea {
+  border: none;
+  outline: none;
+  margin: 8px;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+.comment-form button {
+  border: none;
+  padding: 12px;
+  margin: 8px;
+  border-radius: 20px;
+  cursor: pointer;
+}
