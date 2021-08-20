@@ -23,4 +23,4 @@ Kitaplar ve yazarlar hakkında bilgi edilebilir. Okuyucuların yapmış olduğu 
 Her bir sayfa component şeklindedir. Linklere tıklandığı zaman ilgili component App.js'de çağırılır. 
 
 ### Dosya Yapısı
-![dosya](https://user-images.githubusercontent.com/83647142/130217907-7592cb9c-76a5-4313-aafe-32f04ba4441e.png)
+![dosya](https://user-images.githubusercontent.com/83647142/130218526-ec9b8ca5-f094-4195-a532-b1ef5fb9da26.png)
