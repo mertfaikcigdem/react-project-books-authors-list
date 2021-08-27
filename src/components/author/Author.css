@@ -43,3 +43,15 @@
   font-family: "Georama", sans-serif;
   letter-spacing: 0.1rem;
 }
+
+@media screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    margin: 11rem auto;
+    width: 100%;
+  }
+
+  .author-card {
+    width: 90%;
+  }
+}

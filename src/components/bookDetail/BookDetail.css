@@ -86,3 +86,13 @@
   border-radius: 20px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1024px) {
+  .book-card {
+    margin: 11rem auto;
+    width: 90%;
+  }
+  .comment-form span {
+    margin-left: 30%;
+  }
+}

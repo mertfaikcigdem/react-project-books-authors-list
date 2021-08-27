@@ -74,7 +74,7 @@ function Navbar() {
             <span className="username">
               <b>{localStorage.getItem("username")}</b>
             </span>
-            <button onClick={Logout} className="log-button">
+            <button onClick={Logout} className="logout">
               <HiOutlineLogout className="log-icon" />
               Çıkış Yap
             </button>

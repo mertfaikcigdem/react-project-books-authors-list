@@ -18,7 +18,6 @@ function AuthorDetail() {
 
   const addComment = (e) => {
     e.preventDefault();
-    // console.log(BooksData[id-1].comments);
     AuthorsData &&
       AuthorsData[id - 1].comments.unshift({
         userName: localStorage.getItem("username"),

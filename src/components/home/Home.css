@@ -28,7 +28,7 @@
 
 .b-content span {
   position: absolute;
-  z-index: 999;
+  z-index: 997;
   top: 75%;
   left: 35%;
   font-size: 30px;
@@ -65,7 +65,7 @@
 
 .a-content span {
   position: absolute;
-  z-index: 999;
+  z-index: 997;
   top: 75%;
   left: 35%;
   font-size: 30px;
@@ -79,4 +79,32 @@
 .a-content span:hover {
   font-size: 40px;
   border-bottom: 2px solid black;
+}
+@media screen and (max-width: 1024px) {
+  .home-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: left;
+    margin: 12rem 0;
+  }
+  .b-content {
+    width: 80%;
+  }
+  .b-content:hover {
+    width: 80%;
+  }
+  .b-content span:hover {
+    font-size: 30px;
+  }
+  .a-content {
+    width: 80%;
+  }
+  .a-content:hover {
+    width: 80%;
+  }
+  .a-content span:hover {
+    font-size: 30px;
+  }
 }

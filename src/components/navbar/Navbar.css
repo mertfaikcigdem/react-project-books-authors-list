@@ -73,7 +73,6 @@
 }
 
 .home-button:hover {
-  width: 30%;
   background-color: whitesmoke;
 }
 
@@ -107,9 +106,27 @@
   font-weight: bold;
   transition: all 0.3s;
 }
-
 .login-button:hover {
   width: 50%;
+}
+.logout {
+  margin: 12px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.3s;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Georama", sans-serif;
+}
+.logout:hover {
+  width: 25%;
 }
 
 .user {
@@ -145,4 +162,38 @@
   margin: 0 3px;
   font-family: "Georama", sans-serif;
   font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    z-index: 999;
+  }
+  .button-bar {
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    width: 100%;
+  }
+  .button-bar .log-button {
+    margin: 1rem;
+    padding: 0;
+  }
+  .home-button {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .home-link {
+    width: 50%;
+  }
+  .logout {
+    width: 30%;
+  }
+  .logout:hover {
+    width: 30%;
+  }
 }
