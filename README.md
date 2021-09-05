@@ -5,11 +5,11 @@ Live
 https://kwpns.csb.app/
 
 Bu proje, kitaplar ve yazarlar hakkında bilgi edinebildiğiniz aynı zamanda yorum yapabildiğiniz bir react projesidir.
-![home](https://user-images.githubusercontent.com/83647142/130210022-cab89588-02bb-4b45-8cc8-3b133d7db837.png)
-![login](https://user-images.githubusercontent.com/83647142/130210213-ea22aad8-c3ad-477a-b2d8-81d378632f08.png)
-![books](https://user-images.githubusercontent.com/83647142/130210169-492be01c-2b53-4c50-9ff2-40e863694c3f.png)
-![authors](https://user-images.githubusercontent.com/83647142/130210194-abca770a-58c6-46fe-9f7c-a325f6c982fc.png)
-![detail](https://user-images.githubusercontent.com/83647142/130210161-b79169d2-f40b-4b7c-b7c2-51fc507cb56c.png)
+![image](https://user-images.githubusercontent.com/83647142/132123164-8f7fb646-78bc-456f-a8d3-c8fae4d4cf43.png)
+![image](https://user-images.githubusercontent.com/83647142/132123176-da803958-b294-4215-8fe4-0d96534559c4.png)
+![image](https://user-images.githubusercontent.com/83647142/132123195-bd80304a-a96f-4136-97f4-f28252258e62.png)
+![image](https://user-images.githubusercontent.com/83647142/132123223-59b3198f-f6ce-4cab-af90-ced319a9eb28.png)
+![image](https://user-images.githubusercontent.com/83647142/132123261-711bd877-7999-49d2-822e-00a6a0504dec.png)
 
 ### Proje Nasıl Çalıştırılır
 
