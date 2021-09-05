@@ -2,7 +2,7 @@
 
 Live
 
-https://kwpns.csb.app/
+https://jfoql.csb.app/
 
 Bu proje, kitaplar ve yazarlar hakkında bilgi edinebildiğiniz aynı zamanda yorum yapabildiğiniz bir react projesidir.
 ![image](https://user-images.githubusercontent.com/83647142/132123164-8f7fb646-78bc-456f-a8d3-c8fae4d4cf43.png)
